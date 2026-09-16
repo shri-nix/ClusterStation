@@ -42,11 +42,9 @@ No Go, no Xcode, no admin password, no command line to keep it running.
 
 ## Screenshots
 
-> *Replace the placeholders in [`docs/screenshots/`](docs/screenshots) with your own — and **anonymize** them first (no real cluster names, server URLs or IPs). Tip: in the app, cluster **renames are local and reversible**, so you can rename to demo names, capture, then rename back.*
-
-| Fleet board | Pod detail |
+| Fleet board | Cluster Overview | Pod detail |
 |:---:|:---:|
-| ![Fleet board](docs/screenshots/fleet-board.png) | ![Pod detail](docs/screenshots/pod-detail.png) |
+| ![Fleet board](docs/screenshots/fleet-board.png) | ![Cluster Overview](docs/screenshots/pod-detail.png) | ![Pod detail](docs/screenshots/pod-detail.png) |
 
 | kubectl terminal | AI assistant |
 |:---:|:---:|
