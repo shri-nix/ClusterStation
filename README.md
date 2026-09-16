@@ -2,7 +2,7 @@
 
 # ⎈ ClusterStation
 
-### A command center for a fleet of Kubernetes clusters — as a native Mac app.
+### A single dashboard for operating a fleet of Kubernetes clusters.
 
 Bring your own kubeconfig. Nothing runs in the cloud. Everything is **read-only** until you say otherwise.
 
@@ -12,7 +12,6 @@ Bring your own kubeconfig. Nothing runs in the cloud. Everything is **read-only*
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
 [![Platform](https://img.shields.io/badge/macOS-13%2B%20·%20universal-black?logo=apple)](../../releases/latest)
 
-![Fleet board](docs/screenshots/fleet-board.png)
 
 </div>
 
