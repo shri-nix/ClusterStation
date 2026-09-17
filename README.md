@@ -43,7 +43,7 @@ No Go, no Xcode, no admin password, no command line to keep it running.
 
 | Fleet board | Cluster Overview | Pod detail |
 |:---:|:---:|:---:|
-| ![Fleet board](docs/screenshots/fleet-board.png) | ![Cluster Overview](docs/screenshots/cluster_overview.png) | ![Pod detail](docs/screenshots/pod-detail.png) |
+| ![Fleet board](docs/screenshots/fleet-board.png) | ![Cluster Overview](docs/screenshots/cluster_overview.png) | ![Pod detail](docs/screenshots/pod-detail-demo.mov) |
 
 | kubectl terminal | AI assistant |
 |:---:|:---:|
