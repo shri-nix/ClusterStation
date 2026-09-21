@@ -10,7 +10,6 @@ Bring your own kubeconfig. Nothing runs in the cloud. Everything is **read-only*
 
 [![Release](https://img.shields.io/github/v/release/shri-nix/clusterstation)](../../releases/latest)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
-[![Platform](https://img.shields.io/badge/macOS-13%2B%20·%20universal-black?logo=apple)](../../releases/latest)
 
 
 </div>
