@@ -6,9 +6,6 @@
 
 Bring your own kubeconfig. Nothing runs in the cloud. Everything is **read-only** until you say otherwise.
 
-[![Download for macOS](https://img.shields.io/badge/⬇%20Download-macOS%20DMG-2ea44f?style=for-the-badge&logo=apple&logoColor=white)](../../releases/latest)
-[![Download for Windows](https://img.shields.io/badge/⬇%20Download-Windows%20.exe-0078D6?style=for-the-badge&logo=windows&logoColor=white)](../../releases/latest)
-[![Download for Debian/Ubuntu](https://img.shields.io/badge/⬇%20Download-Debian%2FUbuntu%20.deb-A81D33?style=for-the-badge&logo=debian&logoColor=white)](../../releases/latest)
 
 [![Release](https://img.shields.io/github/v/release/shri-nix/clusterstation)](../../releases/latest)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
@@ -16,8 +13,7 @@ Bring your own kubeconfig. Nothing runs in the cloud. Everything is **read-only*
 [![Windows](https://img.shields.io/badge/Windows-10%2F11%20·%20amd64-0078D6?logo=windows&logoColor=white)](../../releases/latest)
 [![Linux](https://img.shields.io/badge/Debian%2FUbuntu-.deb-A81D33?logo=debian&logoColor=white)](../../releases/latest)
 
-<!-- Add an anonymized hero screenshot here once you have one, e.g.
-![Fleet board](docs/screenshots/fleet-board.png) -->
+![Fleet board](docs/screenshots/cluster_overview.png)
 
 </div>
 
@@ -86,13 +82,9 @@ sudo apt install ./clusterstation_<version>_<arch>.deb    # apt pulls the WebKit
 Launch **ClusterStation** from your applications menu or run `clusterstation`. It opens a **true native GTK/WebKit window**. Needs **WebKitGTK 4.1** (`libwebkit2gtk-4.1-0`), present on Debian 12+, Ubuntu 22.04+ and derivatives — `apt` installs it for you.
 
 ## Screenshots
-| Fleet board | Cluster Overview |
+| Fleet board | Pod details |
 |:---:|:---:|
-| ![Fleet board](docs/screenshots/fleet-board.png) | ![Cluster Overview](docs/screenshots/cluster_overview.png) | 
-
-| Pod deatails |
-|:---:|
-| ![Pod detail](docs/screenshots/pod-detail-demo.gif) |
+| ![Fleet board](docs/screenshots/fleet-board.png) | ![Pod detail](docs/screenshots/pod-detail-demo.gif) |
 
 | kubectl terminal | AI assistant |
 |:---:|:---:|
