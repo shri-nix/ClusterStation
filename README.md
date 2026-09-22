@@ -1,9 +1,12 @@
 <div align="center">
 
-# ⎈ ClusterStation
- **One station. Many clusters.**
+<img src="docs/icon.png" alt="ClusterStation" width="120" height="120">
 
-### A unified control plane for a fleet of Kubernetes clusters — on macOS, Windows and Linux.
+# ClusterStation
+
+### One station. Many clusters.
+
+A unified control plane for a fleet of Kubernetes clusters — on **macOS**, **Windows** and **Linux**.
 
 Bring your own kubeconfig. Nothing runs in the cloud. Everything is **read-only** until you say otherwise.
 
