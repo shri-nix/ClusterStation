@@ -3,6 +3,9 @@
 <img src="docs/screenshots/icon.png" alt="ClusterStation" width="120" height="120">
 
 # ClusterStation - One Station Many Clusters
+<p>
+  <strong>One Station Many Clusters.</strong>
+</p>
 
 
 A unified control plane for a fleet of Kubernetes clusters — on **macOS**, **Windows** and **Linux**.
