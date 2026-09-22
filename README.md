@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/icon.png" alt="ClusterStation" width="120" height="120">
+<img src="docs/screenshots/icon.png" alt="ClusterStation" width="120" height="120">
 
 # ClusterStation
 
