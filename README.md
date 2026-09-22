@@ -82,9 +82,13 @@ sudo apt install ./clusterstation_<version>_<arch>.deb    # apt pulls the WebKit
 Launch **ClusterStation** from your applications menu or run `clusterstation`. It opens a **true native GTK/WebKit window**. Needs **WebKitGTK 4.1** (`libwebkit2gtk-4.1-0`), present on Debian 12+, Ubuntu 22.04+ and derivatives — `apt` installs it for you.
 
 ## Screenshots
-| Fleet board | Pod details |
-|:---:|:---:|
-| ![Fleet board](docs/screenshots/fleet-board.png) | ![Pod detail](docs/screenshots/pod-detail-demo.gif) |
+| Fleet board |
+|:---:|
+| ![Fleet board](docs/screenshots/fleet-board.png) |
+
+| Pod details |
+|:---:|
+| ![Pod detail](docs/screenshots/pod-detail-demo.gif) |
 
 | kubectl terminal | AI assistant |
 |:---:|:---:|
@@ -184,22 +188,6 @@ Everything lives under your user profile — nothing is written system-wide.
 | **Encrypted data** (clusters, accounts, AI config) | `~/Library/Application Support/ClusterStation/` | `%LOCALAPPDATA%\ClusterStation\data\` | `~/.local/share/clusterstation/` |
 | **Logs / audit trail** | `~/Library/Logs/ClusterStation/` | `%LOCALAPPDATA%\ClusterStation\data\` | `~/.local/share/clusterstation/` |
 
-## Build from source
-
-You need [Go](https://go.dev) 1.22+. Each platform builds independently; nothing is checked into the repo but source.
-
-```sh
-# macOS universal .dmg (run on a Mac)
-./scripts/make-dmg.sh 1.0.0
-
-# Windows single self-contained .exe (cross-compiles anywhere — pure Go, no C toolchain, no Docker)
-./scripts/build-windows.sh 1.0.0
-
-# Debian/Ubuntu native .deb (needs Docker; builds amd64 or arm64 in a container)
-./scripts/build-linux-native.sh 1.0.0 amd64
-```
-
-Artifacts land in `dist/`. The server (`main` package, pure Go) and the embedded web UI (`web/`) are shared across all platforms; only the thin native wrapper differs per OS (`desktop/macos`, `desktop/windows`, `desktop/linux`).
 
 ## Uninstall
 
