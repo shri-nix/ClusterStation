@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⎈ ClusterStation
-> **One station. Many clusters.**
+# **One station. Many clusters.**
 
 ### A unified control plane for a fleet of Kubernetes clusters — on macOS, Windows and Linux.
 
