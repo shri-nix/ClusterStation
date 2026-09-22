@@ -1,8 +1,9 @@
 <div align="center">
 
 # ⎈ ClusterStation
+**One station. Many clusters.**
 
-### A command center for a fleet of Kubernetes clusters — on macOS, Windows and Linux.
+### A unified control plane for a fleet of Kubernetes clusters — on macOS, Windows and Linux.
 
 Bring your own kubeconfig. Nothing runs in the cloud. Everything is **read-only** until you say otherwise.
 
